@@ -30,12 +30,12 @@ wheels/
 # Group_image/*.jpg
 # Group_image/*.jpeg
 # Group_image/*.png
-Detection_Image/*.jpg
-Detection_Image/*.jpeg
-Detection_Image/*.png
-Image_FaceDetection/*.jpg
-Image_FaceDetection/*.jpeg
-Image_FaceDetection/*.png
+# Detection_Image/*.jpg
+# Detection_Image/*.jpeg
+# Detection_Image/*.png
+# Image_FaceDetection/*.jpg
+# Image_FaceDetection/*.jpeg
+# Image_FaceDetection/*.png
 
 # Embeddings (user data - but allow sample files)
 # embeddings/*.npy
