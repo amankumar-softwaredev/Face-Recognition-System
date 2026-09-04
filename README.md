@@ -29,6 +29,8 @@ Download the required models:
 - SCRFD model → Place in models/ folder
 - ArcFace model → Place in arcface_models/ folder
 
+Note: Model files are not included in this repository due to size constraints. Please download them separately.
+
 ### 3. Run
 
 ```bash
@@ -40,14 +42,18 @@ python Complete_Face_System.py
 ```
 Face-Recognition-System/
 ├── Complete_Face_System.py    # Main script
-├── Single_Person/             # Single person training photos
-├── Group_image/               # Group photos for training
-├── Detection_Image/           # Images to detect faces
-├── Image_FaceDetection/       # Detection results output
+├── Single_Person/             # Add single person training photos here
+├── Group_image/               # Add group photos for training here
+├── Detection_Image/           # Add images to detect faces (input)
+├── Image_FaceDetection/       # Detection results will be saved here (output)
 ├── embeddings/                # Generated embeddings
-├── models/                    # SCRFD face detection model
-└── arcface_models/            # ArcFace embedding model
+├── models/                    # SCRFD face detection model (download separately)
+└── arcface_models/            # ArcFace embedding model (download separately)
 ```
+
+Note: Detection_Image and Image_FaceDetection folders are kept empty intentionally:
+- Detection_Image: Add your test images here
+- Image_FaceDetection: Detection results will automatically be saved here
 
 ## Usage
 
