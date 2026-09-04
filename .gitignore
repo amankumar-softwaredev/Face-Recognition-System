@@ -44,9 +44,9 @@ embeddings/*.jpg
 embeddings/*.jpeg
 embeddings/*.png
 
-# Models (too large for git)
-models/*.onnx
-arcface_models/*.tflite
+# Models (allowing sample models for easy setup)
+# models/*.onnx
+# arcface_models/*.tflite
 
 # IDE
 .vscode/
