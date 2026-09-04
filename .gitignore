@@ -23,13 +23,13 @@ wheels/
 .installed.cfg
 *.egg
 
-# Image files (user data)
-Single_Person/*.jpg
-Single_Person/*.jpeg
-Single_Person/*.png
-Group_image/*.jpg
-Group_image/*.jpeg
-Group_image/*.png
+# Image files (user data - but allow sample files)
+# Single_Person/*.jpg
+# Single_Person/*.jpeg
+# Single_Person/*.png
+# Group_image/*.jpg
+# Group_image/*.jpeg
+# Group_image/*.png
 Detection_Image/*.jpg
 Detection_Image/*.jpeg
 Detection_Image/*.png
@@ -37,9 +37,9 @@ Image_FaceDetection/*.jpg
 Image_FaceDetection/*.jpeg
 Image_FaceDetection/*.png
 
-# Embeddings (user data)
-embeddings/*.npy
-embeddings/*.txt
+# Embeddings (user data - but allow sample files)
+# embeddings/*.npy
+# embeddings/*.txt
 embeddings/*.jpg
 embeddings/*.jpeg
 embeddings/*.png
